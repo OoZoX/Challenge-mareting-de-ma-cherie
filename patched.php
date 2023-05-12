@@ -1,6 +1,6 @@
 <?php
 #include_once 'code/action/config.php';
-$titlePage = '';
+$titlePage = 'patch';
 $namePage = 'patched';
 $valueH1 = "";
 ?>
@@ -58,7 +58,7 @@ include 'code/content/head.php';
                 </div>
             </div>
         </div>
-        <div class="col s10 offset-s1">
+        <div class="col s12 l10 offset-l1">
 
 
             <div class="col s12 l4">

@@ -18,8 +18,8 @@
 <ul class="sidenav color-grey-oppac" id="mobile-demo">
   <li><a class="height-menu text-black" href="./">Home</a></li>
   <li><a class="height-menu text-black" href="game">Our game</a></li>
-  <li><a class="height-menu text-black" href="patch">Patch notes</a></li>
-  <li><a class="height-menu text-black" href="forms">Forms</a></li>
+  <li><a class="height-menu text-black" href="patched">Patch notes</a></li>
+  <li><a class="height-menu text-black" href="formser">Forms</a></li>
 
 </ul>
 
