@@ -1,0 +1,34 @@
+body nav.setting-navbar {
+    /*commentaire*/
+    text-transform: uppercase !important;
+}
+
+.height-menu {
+    line-height: 80px !important;
+}
+
+.btn-navbar:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+.taille-logo {
+    height: 45px;
+    width: 50px;
+    margin-top: 9px;
+    margin-left: 20px;
+    /*padding-top: 12px; */
+    /*padding-left: 10px; */
+}
+
+.navbar-fixed {
+    height: 80px;
+}
+
+.btn-navbar {
+    font-size: 1.2rem!important;
+}
+
+.banner {
+    width: 100% !important;
+    height: auto !important;
+}

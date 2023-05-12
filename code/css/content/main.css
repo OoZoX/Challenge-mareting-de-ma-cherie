@@ -1,0 +1,38 @@
+/*--magnolia: #fcf7ffff;
+--outer-space-crayola: #2e3837ff;
+--star-command-blue: #247fbcff;
+--carolina-blue: #249ee5ff;
+--titanium-yellow: #efe601ff;
+*/
+
+body {
+    display: flex !important;
+    min-height: 100vh !important;
+    flex-direction: column !important;
+}
+
+main {
+    flex: 1 0 auto !important;
+}
+
+.justify {
+    text-align: justify;
+}
+
+div.row {
+    margin-bottom: 0px;
+}
+
+.taille_nom_site {
+    font-size: 42;
+}
+
+.bg {
+    background-image: url(../../../assets/);
+    background-attachment: fixed;
+}
+
+.image-auto {
+    height: auto !important;
+    width: auto !important;
+}

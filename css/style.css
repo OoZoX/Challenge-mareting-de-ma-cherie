@@ -1,0 +1,400 @@
+
+/*structure de la page*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+}
+
+
+/*textes*/
+.fontTitre {
+    font-family: "Georgia", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 5%;
+    font-family: "Georgia", sans-serif;
+    font-size: 350%;
+    font-weight: bold;
+    color: #000000;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 5%;
+    font-family: "Georgia", sans-serif;
+    font-size: 350%;
+    color: #3d3d3d;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Georgia", sans-serif;
+    margin-top: 2%;
+    font-size: 250%;
+    margin-bottom: 2%;
+    color: #3d3d3d;
+}
+
+p {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 125%;
+}
+
+.descriptifChallenge{
+    font-size: 150% !important;
+    font-family: "Georgia", sans-serif;
+}
+
+
+/*navbar*/
+
+.navbar{
+    background-color: #febfd2 !important;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logoNavbar{
+    width: 45px;
+    height: 45px;
+}
+
+.colorPinkTransition {
+    color: #000000;
+    transition: 0.5s;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.colorPinkTransition:hover {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.textNav {
+    color: #000000;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+.textNav:hover {
+    color: black;
+}
+
+#equipe {
+    scroll-margin-top: 55px;
+}
+
+.bannerImg{
+    width: 1900px !important;
+    height:500px;
+}
+
+/* Section */
+
+.home__about{
+    padding: 60px 0;
+    margin: -30px 0 0 0;
+}
+
+.challengeImg{
+    width: 500px;
+    height: 400px;
+}
+.mobileImg{
+    width: 500px;
+    height: 400px;
+}
+.trailerImg{
+    width: 600px;
+    height: 200px;
+}
+.home__careers{
+    padding: 60px 0;
+    background-color: #febfd2 !important;
+}
+.home__careers--text{
+    font-size: 16px;
+    color: #000;
+    font-weight: 300;
+    font-family: "Georgia", sans-serif;
+}
+.home__careers--title{
+    font-size: 16px;
+    color: #2b2434;
+    font-weight: 600;
+    font-family: "Georgia", sans-serif;
+}
+.home__careers--subtitle{
+    font-size: 32px;
+    color: 0;
+    font-weight: 300;
+    font-family: "Georgia", sans-serif;
+    margin: 20px 0;
+}
+
+.patch__title{
+    margin-left: 280px;
+}
+
+.colorCard{
+    margin-left: 250px;
+    background-color: #fa91b1 !important;
+}
+/* Team */
+
+.home__team{
+    padding: 60px 0;
+    background-color: #fa91b1 !important;
+}
+.pdp {
+    margin-left: 50px;
+    width: 75% !important;
+    height: 75% !important;
+}
+
+.centerText {
+    text-align: center;
+}
+
+/* Game Catch n' Run */
+
+.game__trailer{
+    padding: 60px 0;
+    margin: -30px 0 0 0;
+}
+.videoPadding{
+    margin-top: 85px;
+}
+.game__title{
+    font-size: 16px;
+    color: #299eff;
+    font-weight: 600;
+    font-family: "Georgia", sans-serif;
+}
+.game__txt{
+    font-size: 16px;
+    color: #000;
+    font-weight: 300;
+    font-family: "Georgia", sans-serif;
+}
+
+.game__rules{
+    padding: 60px 0;
+    background-color: #febfd2 !important;
+}
+
+.game__opinion{
+    padding: 60px 0;
+}
+
+.border-margin-page{
+  width: 1400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background-color: #fff;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 10px;
+}
+.border-margin-content{
+  width: 1400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 10px;
+}
+
+.mapImg{
+    padding: 0;
+    margin-left: 400px;
+    width: 40%;
+    height: 30%;
+}
+.mobilesImg{
+    padding: 0;
+    width: 300px;
+    height: 400px;
+}
+
+/* patch notes */
+
+.patch__text{
+    font-size: 20px;
+}
+
+.patch__bg{
+    background-color: #e591cc;
+}
+
+.position{
+    margin-left: 150px;
+}
+
+/* Media */
+
+.Contact_us {
+    margin-left: 300px;
+    width: 700px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 50px 0 50px;
+    background: white;
+}
+
+.Contact_us > h1 {
+    font-weight: 500;
+}
+
+.Contact_us > p {
+    font-weight: 300;
+}
+
+form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin-top: 25px;
+}
+
+form div > label {
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+form div > input, form div > select, form div > textarea {
+    background: #FFD9D9;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Georgia", sans-serif;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+form div > input, form div > select {
+    height: 50px;
+    padding-left: 10px;
+}
+
+form div > select {
+    appearance: none;
+    background-size: 15px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDIxMy4zMzMgMjEzLjMzMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Zz4KCQk8cG9seWdvbiBwb2ludHM9IjAsNTMuMzMzIDEwNi42NjcsMTYwIDIxMy4zMzMsNTMuMzMzICAgIiBmaWxsPSIjMzAzMDMwIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BvbHlnb24+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==');
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+}
+
+form div > textarea {
+    height: 195px;
+    padding: 15px 0px 0px 10px;
+}
+
+form div > input::placeholder, form div > textarea::placeholder {
+    color: black;
+}
+
+form div > select:invalid {
+    color: black;
+}
+
+form div > select option {
+    background: black;
+    color: #303030;
+}
+
+form div:last-child {
+    align-items:center;
+    margin-top: 20px;
+}
+
+form button {
+    width: 450px;
+    max-width: 500px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 28px;
+    background: white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #303030;
+}
+
+/* Footer */
+
+.page-footer{
+    background: url("../img/footer.png");
+    background-size: cover;
+    padding: 20px 0;
+}
+
+.pageFooter__text{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    font-family: "Georgia", sans-serif;
+    margin: 0;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.page-footer__social a{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    font-family: "Georgia", sans-serif;
+    text-decoration: underline;
+}
+.page-footer__social img{
+    width: 2rem !important;
+    height: 2rem !important;
+}
+
+.page-footer__links{
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    font-family: "Georgia", sans-serif;
+    text-decoration: none;
+    display: block;
+    margin: 15px 0;
+    text-transform: capitalize;
+}
+
+.page-footer__white{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    font-family: "Georgia", sans-serif;
+    text-transform: capitalize;
+}
+
+.text-white{
+    color: #000 !important;
+}
+
+.text-left{
+    text-align: left !important;
+}

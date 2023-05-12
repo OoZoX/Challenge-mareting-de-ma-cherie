@@ -1,0 +1,25 @@
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.input-field>label {
+    color: black;
+}
+
+.select-dropdown li.disabled,
+.select-dropdown li.disabled>span,
+.select-dropdown li.optgroup {
+    color: #9C38F5 !important;
+}
+
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+    background-color: #a1653f;
+}

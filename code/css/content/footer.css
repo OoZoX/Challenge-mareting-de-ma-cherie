@@ -1,0 +1,13 @@
+.all-footer{
+    background-image: url("../../../assets/img/footer.png");
+}
+
+.size-logo img{
+    height: 2rem !important;
+    width: 2rem !important;
+}
+
+.no-bg{
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
