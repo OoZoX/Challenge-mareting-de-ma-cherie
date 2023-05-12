@@ -7,21 +7,19 @@
 
       <ul class="height-menu right hide-on-med-and-down mlnavpx mr5">
         <li><a class="height-menu text-blanc btn-navbar" href="./">Home</a></li>
-        <li><a class="height-menu text-blanc btn-navbar" href="who">Who are we ?</a></li>
         <li><a class="height-menu text-blanc btn-navbar" href="game">Our game</a></li>
-        <li><a class="height-menu text-blanc btn-navbar" href="patch">Patch notes</a></li>
-        <li><a class="height-menu text-blanc btn-navbar" href="forms">Forms</a></li>
+        <li><a class="height-menu text-blanc btn-navbar" href="patched">Patch notes</a></li>
+        <li><a class="height-menu text-blanc btn-navbar" href="formser">Forms</a></li>
       </ul>
     </div>
   </nav>
 </div>
 
 <ul class="sidenav color-grey-oppac" id="mobile-demo">
-  <li><a class="height-menu text-blanc" href="./">Home</a></li>
-  <li><a class="height-menu text-blanc" href="who">Who are we ?</a></li>
-  <li><a class="height-menu text-blanc" href="game">Our game</a></li>
-  <li><a class="height-menu text-blanc" href="patch">Patch notes</a></li>
-  <li><a class="height-menu text-blanc" href="forms">Forms</a></li>
+  <li><a class="height-menu text-black" href="./">Home</a></li>
+  <li><a class="height-menu text-black" href="game">Our game</a></li>
+  <li><a class="height-menu text-black" href="patch">Patch notes</a></li>
+  <li><a class="height-menu text-black" href="forms">Forms</a></li>
 
 </ul>
 

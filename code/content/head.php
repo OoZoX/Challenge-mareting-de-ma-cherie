@@ -14,6 +14,6 @@
 
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
   <title><?php echo $titlePage; ?></title>
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/logo_guardia_blanc.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/Logo/logo.png"/>
 
 </head>

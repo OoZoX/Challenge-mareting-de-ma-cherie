@@ -10,6 +10,10 @@
     background-color: #2e2e2e17 !important;
 }
 
+.bg-purple {
+    background-color: #c19fdc;
+}
+
 .color-grey-oppac-sombre {
     background-color: #202020f6;
 }
@@ -81,6 +85,10 @@
     background-color: #E9915B;
 }
 
+
+.raduis {
+    border-radius: 10px;
+}
 
 /*
 .bg {
